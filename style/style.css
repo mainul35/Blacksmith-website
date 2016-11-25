@@ -1,0 +1,705 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Georgia, serif;
+	color:#fff;
+	border:0px;
+}
+h3{
+	color:#441313;
+	}
+
+input#delivery_date {
+width: 85%;
+height: 30px;
+}
+
+.wrapper{
+height: 100px;
+    max-width: 100%;
+}
+
+#header-part {
+height: 330px;
+background-color: #5E716A;
+}
+
+header {
+background-color: #0C0D20;
+max-width: 100%;
+height: 160px;
+}
+
+.Banner > img {
+max-width: 490px;
+width: 100%;
+max-height: 75px;
+height: 100%;
+position: absolute;
+margin: 0 auto;
+left: 27%;
+}
+
+nav {
+margin-top: 100px;
+position: absolute;
+width: 60%;
+left: 215px;
+background-color: #9B2B2B;
+height: 60px;
+}
+
+
+.main-list {
+list-style-type: none;
+font-size: 20px;
+height: 70%;
+}
+
+.navigation-list, .navigation-list > a {
+float: left;
+padding-right: 7px;
+color: white;
+font-size: 18px;
+text-decoration: none;
+width: 110px;
+}
+
+.navigation-list > a {
+    padding: 20px 11px 0px;
+    display: block;
+    text-align: center;
+    height: 40px;
+    margin-left: 1px;
+    width: 123px;
+}
+	
+.navigation-list:hover, .navigation-list>a:hover{
+text-decoration: underline;
+}
+
+
+/* Hide Dropdowns by Default */
+nav>ul>li>ul {
+opacity:0;
+position: absolute;
+top: 60px;
+list-style: none;
+width: 110px;
+transition: opacity 0.4s;
+-webkit-transition:opacity 0.4s;
+-moz-transition:opacity 0.4s;
+-o-transition:opacity 0.4s;
+-ms-transition:opacity 0.4s;
+}
+	
+/* Display on Hover */
+nav ul li:hover > ul {
+	opacity:1;
+}
+	
+/* Hides on mouse out */
+nav ul ul li {
+height: 40px;
+float: none;
+position: relative;
+border-bottom: none;
+width: 125px;
+background-color: #CCC;
+overflow:hidden;
+}
+
+ul>li > ul > li > a {
+font-size: 14px;
+display: block;
+width: 80%;
+height: 100%;
+padding-left: 25px;
+padding-top: 10px;
+text-decoration: none;
+color: #222;
+}
+
+li > ul > li > a:hover {
+font-size: 14px;
+display: block;
+width: 80%;
+height: 100%;
+padding-left: 25px;
+padding-top: 10px;
+text-decoration: none;
+color: #222;
+}
+
+nav ul li:nth-child(4) ul li:nth-child(4), nav ul li:nth-child(3) ul li:nth-child(2){
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	}
+
+li > ul > li > a:hover{
+	background: #333;
+	color:#FFF;
+	}
+	
+div.body-part {
+max-width: 100%;
+height: 558px;
+background: #5E716A;
+position: relative;
+top: 0px;
+margin-top: -2px;
+}	
+
+aside {
+margin-top: -140px;
+position: absolute;
+}
+
+aside>ul {
+margin-top: -15px;
+margin-left: 133px;
+list-style: none;
+}
+
+aside li {
+float: left;
+margin-left: 5px;
+}
+
+aside a {
+padding-right: 5px;
+}
+
+div#content-holder {
+position: absolute;
+}
+
+footer p {
+text-align: center;
+top: 10px;
+position: relative;
+}
+
+/*-------------------Home page CSS-------------------------*/
+
+section.body-content {
+margin-left: 20px;
+float: left;
+}
+
+.iconbox-content {
+float: left;
+width: 220px;
+margin-left: 10px;
+margin-right: 27px;
+margin-top: 5px;
+text-align: justify;
+height: 160px;
+overflow: hidden;
+padding-bottom: 40px;
+line-height: 21px;
+}
+
+#wrapper #home-boxes p {
+width: 100%;
+font-size: 12px;
+line-height: 1.6em;
+padding: 0 0 0.5em;
+color: #777777;
+}
+
+.box-icon {
+float: left;
+width: 32px;
+}
+
+/*-----------End Of Home page CSS---------------*/
+
+/*------------------About Page CSS-------------------*/
+
+section.about {
+margin-left: 25px;
+margin-top: 20px;
+text-align: justify;
+margin-right: 35px;
+line-height: 28px;
+}
+
+h1 {
+font-size: 26px;
+}
+
+
+/*----------------End of About Page CSS--------------*/
+
+
+/*---------------Workshop page css------------------*/
+
+.imageholder {
+width: 230px;
+height: 175px;
+float: left;
+margin-top: 30px;
+margin-left: 45px;
+top: 15px;
+position: relative;
+left: 55px;
+}
+
+.imageholder img {
+width: 100%;
+height: 100%;
+border-radius: 15px;
+box-shadow: 2px 3px 10px black;
+}
+
+.placeholder {
+background-color: #CCD;
+width: 720px;
+margin-left: -10%;
+border-radius: 15px;
+height: 530px;
+box-sizing: border-box;
+box-shadow: 1px 1px 18px #000;
+}
+
+.placeholder h1 {
+font-size: 31px;
+text-align: center;
+top: 15px;
+position: relative;
+box-shadow: 0px 3px 30px black;
+}
+
+div#workshop-content-holder {
+position: absolute;
+left: 205px;
+}
+
+/*--------------End of workshop page css-----------*/
+
+/*-------------Contacts page css-------------------*/
+.contacts-body-part {
+width: 100%;
+height: 1500px;
+background: #5E716A;
+}
+
+div#contacts-content-holder {
+margin: 0 20%;
+}
+
+div#contacts-content-holder h3 {
+color: #F3F4F7;
+font-size: 20px;
+}
+
+legend {
+margin-left: 10px;
+}
+
+fieldset.contact_form {
+padding: 15px;
+border: 1px solid;
+}
+select#item_list {
+color: #222;
+}
+
+table[summary~="purchase"]>caption {
+width: 100%;
+text-align: justify;
+padding-bottom: 15px;
+}
+
+th {
+font-size: 18px;
+padding-bottom: 10px;
+}
+
+label {
+font-size: 18px;
+}
+
+select, input {
+color: #222;
+width: 85%;
+height: 30px;
+border-radius: 3px;
+padding-left: 5px;
+margin-bottom: 5px;
+}
+
+input[type="radio"] {
+margin-left: 0px;
+width: 18px;
+height: 16px;
+}
+
+input[type="radio"]:nth-child(3) {
+margin-left: 30px;
+width: 18px;
+height: 16px;
+}
+
+select#item_list {
+width: 85%;
+height: 30px;
+}
+
+input[type|="file"] {
+width: 85%;
+background: #fff;
+color: #222;
+height: 22px;
+}
+
+textarea[placeholder~="write"] {
+width: 85%;
+color: #222;
+border-radius: 3px;
+padding-left: 5px;
+}
+
+input[type=number] {
+width: 85%;
+height: 27px;
+border: 0px;
+}
+
+table {
+width: 100%;
+}
+
+option {
+color: #222;
+}
+
+td {
+width: 0%;
+height: 48px;
+}
+
+table[summary$=contact]>caption {
+width: 100%;
+text-align: justify;
+margin: 10px 0;
+}
+
+hr+div {
+margin-top: 10px;
+}
+
+select#elements {
+width: 85%;
+height: 30px;
+}
+
+input[type="text"] {
+width: 85%;
+height: 30px;
+margin-bottom: 5px;
+}
+
+input[type="submit"] {
+width: 40%;
+background: #39F;
+}
+
+input#number {
+margin-left: -16px;
+margin-top: 7px;
+width: 35px;
+}
+/*-------------End of contacts css-----------------*/
+footer {
+max-width: 100%;
+height: 50px;
+background: rgb(55, 69, 69);
+}
+
+
+/*For display size maximum 1000px and minimum 701px*/
+
+@media screen and ( min-width: 701px ) and ( max-width: 1000px ) {
+.wrapper {
+    height: 100px;
+    width: 100%;
+}
+	
+nav {
+margin-top: 100px;
+position: absolute;
+width: 100%;
+left: 0;
+background-color: #9B2B2B;
+height: 60px;
+}
+
+div.body-part {
+    width: 100%;
+    height: 558px;
+    background: none repeat scroll 0% 0% #5E716A;
+    position: relative;
+    top: 0px;
+    margin-top: -2px;
+}
+
+div#content-holder {
+    position: absolute;
+    left: 160px;
+}
+
+.navigation-list {
+float: left;
+padding-right: 0px;
+color: white;
+font-size: 18px;
+text-decoration: none;
+width: 135px;
+}
+
+.navigation-list > a {
+padding: 20px 0px 0px;
+display: block;
+text-align: center;
+height: 40px;
+margin-left: 10px;
+width: 100px;
+}
+
+.Banner > img {
+max-width: 490px;
+width: 100%;
+max-height: 75px;
+height: 100%;
+position: absolute;
+margin: 0px auto;
+left: 15%;
+}
+
+aside a {
+position: absolute;
+margin-top: 0px;
+}
+
+div#workshop-content-holder {
+position: static;
+max-width: 100%;
+max-height: 100%;
+}
+
+.placeholder {
+background-color: #CCD;
+max-width: 87%;
+margin-left: 7%;
+border-radius: 15px;
+height: 530px;
+max-height: 535px;
+box-sizing: border-box;
+box-shadow: 1px 1px 18px #000;
+}
+
+.imageholder {
+max-width: 230px;
+max-height: 175px;
+float: left;
+margin-top: 30px;
+margin-left: 45px;
+top: 15px;
+position: relative;
+left: 0px;
+}
+
+.imageholder img {
+max-width: 100%;
+width: 320px;
+max-height: 100%;
+border-radius: 15px;
+height: 150px;
+box-shadow: 2px 3px 10px black;
+}
+
+input#number {
+margin-left: 4px;
+margin-top: 7px;
+width: 35px;
+}
+
+}
+
+
+@media screen and ( min-width: 320px ) and ( max-width: 700px ) {
+
+
+.wrapper {
+    height: 100px;
+    width: 100%;
+}
+	
+nav {
+margin-top: 110px;
+position: absolute;
+width: 100%;
+left: 0;
+background-color: #9B2B2B;
+height: 50px;
+}
+
+div.body-part {
+    width: 100%;
+    height: 558px;
+    background: none repeat scroll 0% 0% #5E716A;
+    position: relative;
+    top: 0px;
+    margin-top: -2px;
+}
+
+div#content-holder {
+    position: absolute;
+    left: 160px;
+}
+
+.navigation-list {
+float: left;
+padding-right: 0px;
+color: white;
+font-size: 0px;
+text-decoration: none;
+width: 90px;
+}
+
+.navigation-list > a {
+padding: 20px 0px 0px;
+display: block;
+text-align: center;
+height: 30px;
+margin-left: 0px;
+width: 80px;
+}
+
+nav>ul>li>ul {
+opacity: 0;
+position: absolute;
+top: 50px;
+list-style: none;
+width: 110px;
+transition: opacity 0.4s;
+-webkit-transition: opacity 0.4s;
+-moz-transition: opacity 0.4s;
+-o-transition: opacity 0.4s;
+-ms-transition: opacity 0.4s;
+}
+
+nav ul ul li {
+height: 40px;
+float: none;
+position: relative;
+border-bottom: none;
+left: -17px;
+width: 100px;
+background-color: #CCC;
+overflow: hidden;
+margin-left: 12px;
+}
+
+ul>li > ul > li > a {
+font-size: 14px;
+display: block;
+/* max-width: 80%; */
+height: 100%;
+padding-left: 10px;
+padding-top: 10px;
+text-decoration: none;
+color: #222;
+width: 160px;
+}
+
+li > ul > li > a:hover {
+font-size: 14px;
+display: block;
+/* max-width: 80%; */
+height: 100%;
+padding-left: 10px;
+padding-top: 10px;
+text-decoration: none;
+width: 160px;
+}
+
+.Banner > img {
+max-width: 430px;
+position: absolute;
+margin: 0 auto;
+left: 5%;
+}
+
+aside {
+margin-top: -70px;
+position: absolute;
+background: #222;
+height: 45px;
+width: 300px;
+}
+
+aside p {
+padding-top: 20px;
+}
+
+aside a {
+position: inherit;
+margin-top: 20px;
+margin-left: -15px;
+}
+
+.placeholder {
+background-color: #CCD;
+width: 130%;
+margin-left: -38%;
+border-radius: 15px;
+height: 500px;
+box-sizing: border-box;
+box-shadow: 1px 1px 18px #000;
+}
+
+.imageholder {
+max-width: 37%;
+max-height: 13%;
+float: left;
+margin-top: 3%;
+margin-left: 7%;
+top: 15px;
+position: relative;
+left: 1%;
+}
+
+.imageholder img {
+max-width: 100%;
+max-height: 100%;
+width: 330px;
+border-radius: 15px;
+box-shadow: 2px 3px 10px black;
+height: 150px;
+min-width: 30%;
+min-height: 12%;
+}
+
+aside {
+margin-top: -70px;
+position: absolute;
+background: #222;
+height: 55px;
+width: 225px;
+}
+
+aside p {
+padding-top: 15px;
+}
+
+aside a {
+position: inherit;
+margin-top: 20px;
+margin-left: 0px;
+}
+	
+	}
